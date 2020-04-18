@@ -9,8 +9,4 @@ def sock_merchant(arr):
 
 if __name__ == '__main__':
     sock_list = list(map(int, input().rstrip().split()))
-
-
-    result = sock_merchant(sock_list)
-
-    print(result)
+    print(sock_merchant(sock_list))
